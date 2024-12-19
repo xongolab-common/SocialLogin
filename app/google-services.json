@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "341210171684",
+    "project_id": "social-login-95614",
+    "storage_bucket": "social-login-95614.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341210171684:android:d3db75a3b012ac0f3ccbb1",
+        "android_client_info": {
+          "package_name": "com.example.sociallogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341210171684-hioe3i4o11gbl79tshp56nng6atts8bs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sociallogin",
+            "certificate_hash": "06c5286333a9d834f9c13f33fb0f8fa5cd72c058"
+          }
+        },
+        {
+          "client_id": "341210171684-hq4l2sh64berfr9r3i2ro3rhukh75kkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGZbO149HslW6e2FyWx0et0Bbqf3jRkRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341210171684-hq4l2sh64berfr9r3i2ro3rhukh75kkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
