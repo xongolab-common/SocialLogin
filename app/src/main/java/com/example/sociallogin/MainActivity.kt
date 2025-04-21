@@ -39,6 +39,10 @@ class MainActivity : AppCompatActivity() {
             btnTwitter.setOnClickListener {
                 startActivity(Intent(this@MainActivity, TwitterLoginActivity::class.java))
             }
+
+            btnInsta.setOnClickListener {
+                startActivity(Intent(this@MainActivity, InstaLoginActivity::class.java))
+            }
         }
 
     }

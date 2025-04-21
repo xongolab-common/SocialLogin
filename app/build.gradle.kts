@@ -72,7 +72,10 @@ dependencies {
     implementation("com.google.firebase:firebase-auth:22.3.0")
     implementation("androidx.browser:browser:1.5.0")
 
- //   implementation("com.twitter.sdk.android:twitter-core:3.3.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
+
+    //   implementation("com.twitter.sdk.android:twitter-core:3.3.0")
 
 
 
