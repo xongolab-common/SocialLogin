@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:padding="15dp"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatTextView
+    <Button
+        android:id="@+id/btnLoginWithFB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login Successfully"
-        android:textSize="25dp"
-        android:gravity="center"
-        android:layout_centerInParent="true"/>
+        android:text="Login with FB"/>
+
+    <Button
+        android:id="@+id/btnTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Twitter"/>
 
 
-</RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

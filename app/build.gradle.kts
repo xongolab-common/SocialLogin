@@ -4,7 +4,9 @@ plugins {
 
     id ("com.google.gms.google-services")
     id("com.google.firebase.crashlytics")
-    id("kotlin-kapt")
+  //  id("kotlin-kapt")
+
+//   id("com.facebook.sdk.applicationId")
 }
 
 android {
@@ -62,7 +64,16 @@ dependencies {
     implementation(libs.firebase.auth)
     implementation(libs.firebase.crashlytics)
 
-    implementation("com.google.android.gms:play-services-auth:20.7.0")
+  //  implementation("com.google.android.gms:play-services-auth:20.7.0")
+
+    implementation("com.facebook.android:facebook-android-sdk:18.0.2")
+
+    // Twitter SDK
+    implementation("com.google.firebase:firebase-auth:22.3.0")
+    implementation("androidx.browser:browser:1.5.0")
+
+ //   implementation("com.twitter.sdk.android:twitter-core:3.3.0")
+
 
 
 }
