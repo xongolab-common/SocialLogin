@@ -37,7 +37,6 @@ class FBLoginActivity : AppCompatActivity() {
 
         binding.loginButton.setPermissions("email", "public_profile")
 
-
         binding.loginButton.registerCallback(callbackManager, object : FacebookCallback<LoginResult> {
             override fun onSuccess(result: LoginResult) {
                 val accessToken = result.accessToken

@@ -7,10 +7,9 @@
     tools:context=".TwitterLoginActivity">
 
     <Button
-        android:id="@+id/btnTwitterLogin"
+        android:id="@+id/twitterLoginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login with Twitter"
        android:layout_centerInParent="true" />
-
 </RelativeLayout>

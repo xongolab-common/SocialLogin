@@ -7,4 +7,12 @@
     <string name="facebook_app_secret">1214c1be775293adee6e55aca8b96582</string>
     <string name="facebook_client_token">25c5bdf21e111d9705568f5874fe6896</string>
 
+    <!--  <string name="facebook_app_id">411031910879144</string>
+      <string name="facebook_app_secret">0b65f8d22cd92cdc8cd53b2f0cb93080</string>
+      <string name="facebook_client_token">c1cda6421b723112ef6300873c447ea0</string>  -->
+
+
+    <string name="twitter_api_key">vDFFBYBvgaBJVY4tDhVXNa9n4</string>
+    <string name="twitter_api_key_secret">rX9IJNUSi5tlKnI35E9FUDeKp0EqBaj91lKxSn1W9k9DcG5mUM</string>
+
 </resources>
